@@ -1,6 +1,6 @@
 #include <stdio.h> 
 #include <stdlib.h>
-
+//hekkjfosdiaj fjikshfhui
 struct node
 {
     int data;
