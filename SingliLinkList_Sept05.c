@@ -7,7 +7,7 @@ struct node
     struct node * next;
 };
 
-struct node *start,*temp,*pre,*newnode;
+struct node *start,*temp,*temp2,*newnode;
 
 
 
@@ -155,8 +155,11 @@ void deletion(){
         case 2:
             temp = start;
             while (temp->next!= NULL){
+                temp2 = temp;
                 temp = temp->next;      //recent change
             }
+
+            temp2->next = NULL;
             break;
 
         case 3:
