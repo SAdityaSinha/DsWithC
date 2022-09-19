@@ -155,7 +155,7 @@ void deletion(){
         case 2:
             temp = start;
             while (temp->next!= NULL){
-                
+                temp = temp->next;      //recent change
             }
             break;
 
